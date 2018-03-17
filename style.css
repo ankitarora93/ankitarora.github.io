@@ -18,16 +18,278 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding-top: 2%;
+  color: #F5F5F5;
 }
 
 h3 {
+  font-family: 'Alegreya', sans-serif;
   font-size: 175%;
   line-height: 155%;
   padding: 5% 0;
   font-weight: 400;
+  color: #F5F5F5;
 }
 
 p {
+  font-family: 'Alegreya', sans-serif;
+  color: #F5F5F5;
   font-size: 160%;
   line-height: 150%;
+  padding: 3.83%;
+  text-align: justify;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+header {
+  background-color: #6991AC;
+  width: 100%;
+  height: 86px;
+}
+#header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#logo {
+  padding-top: 10px;
+  float: left;
+  font-size: 350%;
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+/* personal description */
+.personl-description-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #6991AC;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #F5F5F5;
+  margin: 0 auto;
+}
+
+#personal-image {
+  width: 250px;
+  height: 250px;
+  padding-right: 20px;
+}
+
+/*Personal Description section ends*/
+
+/* Navigation */
+nav {
+  float: right;
+  padding: 25px 20px 0 0;
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(img/nav.png) center;
+}
+a:hover#menu-icon {
+  border-radius: 4px 4px 0 0;
+}
+ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #C3D7DF;
+}
+
+/* End Navigation */
+
+/* Skills section */
+#skills-header {
+  width: 100%;
+  background-color: #008080;
+  color: #F5F5F5;
+  padding-top: 2px;
+  padding-bottom: 7px;
+}
+
+.skills {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#html {
+  background-color: #F1AA90;
+}
+#css {
+  background-color: #BE89AD;
+}
+#javascript {
+  background-color: #AADCD2;
+}
+#responsive {
+  background-color: #A2B2C1;
+}
+
+.skills i {
+  color: #F0F0F0;
+  font-size: 500%;
+  padding: 13% 0 4% 0;
+}
+/* Skills section ends */
+
+/*Work Experience section*/
+#experience-header {
+  background-color: #008080;
+  color: #F5F5F5;
+  padding-bottom: 7px;
+}
+
+#oraclesw i {
+  font-size: 2000%;
+}
+
+.experience {
+  float: left;
+  width: 100%;
+  background-color: #C3D7DF;
+}
+
+article {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+#oraclesw {
+  background-color: #C3D7DF;
+}
+
+aside {
+
+}
+
+#oraclesw2 {
+  background-color: #A2B1C1;
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.experience-2 {
+  float: left;
+  width: 100%;
+  background-color: #C3D7DF;
+}
+
+#oracleqa i {
+  font-size: 2000%;
+}
+
+#oracleqa {
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  background-color: #C3D7DF;
+}
+
+#oracleqa-2 {
+  background-color: #F1AA90;
+}
+
+#internship i {
+  font-size: 2000%;
+}
+
+#internship {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  background-color: #C3D7DF;
+}
+
+#internship-2 {
+  background-color: #F1AA90;
+}
+
+/*Work Experience section ends*/
+
+/*Project Section */
+#projects-header {
+  width: 100%;
+  background-color: #008080;
+  padding-bottom: 7px;
+}
+
+.projects-section {
+  float: left;
+  width: 100%;
+  background-color: #AADCD2;
+}
+
+.projects {
+  width: 33.33333333%;
+  float: left;
+  text-align: center;
+}
+
+#project-1 {
+  background-color: #A2B1C1;
+}
+#project-2 {
+  background-color: #BEB9AD;
+}
+#project-3 {
+  background-color: #AADCD2;
+}
+/*Project Section Ends*/
+
+/*footer section*/
+footer {
+  background-color: #6991AC;
+  width: 100%;
+}
+
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 1% 5% 1% 4%;
+  color: #C3D7DF;
+}
+
+.social i:hover {
+  color: #F5F5F5;
+}
+
+/*footer section ends*/
