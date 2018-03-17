@@ -181,7 +181,8 @@ article {
 }
 
 #oraclesw {
-  background-color: #C3D7DF;
+  float: left;
+  width: 50%;
 }
 
 aside {
@@ -189,7 +190,6 @@ aside {
 }
 
 #oraclesw2 {
-  background-color: #A2B1C1;
   float: right;
   margin: 0 auto;
   width: 50%;
@@ -199,7 +199,6 @@ aside {
 .experience-2 {
   float: left;
   width: 100%;
-  background-color: #C3D7DF;
 }
 
 #oracleqa i {
@@ -211,11 +210,13 @@ aside {
   margin: 0 auto;
   width: 50%;
   height: auto;
-  background-color: #C3D7DF;
 }
 
 #oracleqa-2 {
-  background-color: #F1AA90;
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
 }
 
 #internship i {
@@ -227,11 +228,13 @@ aside {
   margin: 0 auto;
   width: 50%;
   height: auto;
-  background-color: #C3D7DF;
 }
 
 #internship-2 {
-  background-color: #F1AA90;
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
 }
 
 /*Work Experience section ends*/
@@ -293,3 +296,114 @@ footer {
 }
 
 /*footer section ends*/
+
+
+
+/*Media queries for responsive design*/
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 125%;
+  }
+  p {
+    font-size: 120%;
+  }
+  header {
+    position: absolute;
+  }
+
+  #logo {
+    font-size: 200%;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .personl-description-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #personal-image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+  }
+
+  .skills {
+    float: left;
+    width: 100%;
+  }
+
+  .skills i {
+    font-size: 350%;
+    padding: 4% 0 1% 0;
+  }
+
+  article {
+    float: left;
+    width: 100%;
+  }
+  aside {
+    float: left;
+    width: 100%;
+  }
+
+  .experience {
+    text-align: center;
+  }
+
+  #oraclesw i{
+    font-size: 1000%;
+  }
+
+  #oraclesw {
+    float: left;
+    width: 100%;
+  }
+
+  .experience-2 {
+    text-align: center;
+  }
+
+  #oraclesw2 {
+    float: left;
+    width: 100%;
+  }
+
+  #oracleqa {
+    float: left;
+    width: 100%;
+  }
+
+  #oracleqa-2 {
+    width: 100%;
+  }
+
+  #oracleqa i {
+    font-size: 1000%;
+  }
+
+  #internship {
+    float: left;
+    width: 100%;
+  }
+
+  #internship-2 {
+    width: 100%;
+  }
+
+  #internship i {
+    font-size: 1000%;
+  }
+
+  .projects {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+}
